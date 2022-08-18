@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Open+Sans:wght@600&family=Roboto:wght@500&display=swap');
+html{
+   font-family: "Open Sans"sans-serif;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+.container{
+    max-width: 1100px;
+    margin: 0 auto;
+}
+#navhome,a{
+    text-decoration: none;
+    color: #fff;
+}
+body{
+    background:#E5E7E9;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.home{
+    background: blue;
+}
+#navhome{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 0.75rem;
+  height: 70px;
+}
+#navhome,ul,li{
+    list-style-type: none;
+    display: flex;
+    color: #fff;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    padding: 0.75rem;
+    padding-top: 18px;
+    font-weight: 700;
+    font-size: 25px;
+    
+}
+a{
+    transition-property:transform;
+    transition-duration: 350ms;
+    transition-timing-function: ease;
+    /* box-shadow: 0px 8px 10px 1px rgba(0, 0, 0, 0.2); */
+  }
+  a:is(:hover, :focus) {
+    /* box-shadow: 0px 8px 10px 1px rgba(0, 0, 0, 0.2); */
+    transform: translateY(-8px);
+    color: red;
+}
+.contactdisp .contact2{
+    display: flex;
+    flex-direction: column;
+}
+#map{
+    height: 500px;
+    width: 1060px;
+    margin-top: 50px;
+}
+.contactdisp .contact2 li{
+    color: black;
+    padding: 5px;
+    margin-top: 50px;
+}
+.contactdisp .contact2 li:hover{
+    color: #00A5B9;
+    cursor: pointer;
+}

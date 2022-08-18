@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Log in</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="login.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css">
+    <link rel="icon" href="https://cdn-icons-png.flaticon.com/512/3467/3467830.png">
+</head>
+<body>
+    <header class="bg-dark-blue">
+        <div class="container">
+            <nav id="navbar">
+                <h1 class="heading"><i class="fa-solid fa-tooth"></i> Dentist</h1>
+                <li><a href="/components/sigin/sign.html">Daxil Olun</a></li>
+            </nav>
+        </div>
+    </header>
+    <section class="login">
+        <div class="form">
+            <form action="#">
+                <div class="person">
+                    <h2>Şəxsi məlumatlar</h2>
+                </div>
+             <div class="name">
+                <span>Ad</span>
+                <input type="text" placeholder="Ad"  class="input" name="title" id="name1">
+             </div>
+             <div class="name">
+                <span>Soyad</span>
+                <input type="text" placeholder="Soyad" class="input" name="" name="surname" id="surname1">
+             </div>
+             <div class="name">
+                <span>Doğum tarixi</span>
+                <input type="date" class="input" name="date" id="date1">
+             </div>
+             <div class="name">
+                <span>Email</span> 
+                <input type="email" class="input" name="email" id="email1">
+             </div>
+             <div class="name">
+                <span>Şifrə</span>
+                <input type="password" class="input" name="password" id="password1">
+             </div>
+             <div class="name">
+                <span>Cins</span>
+                <select class="input" name="Person"  id="select1">
+                    <option value="Male">Qadın</option>
+                    <option value="Female">Kişi</option>
+                </select>
+             </div>
+             <div class="name">
+                <span>Telefon</span>
+                <input type="text" placeholder="Telefon nömrəsi"class="input" name="phone" id="phone1">
+             </div>
+             <div class="name">
+                <span>Adres</span>
+                <textarea class="textarea"></textarea>
+             </div>
+             <hr>
+             <div class="name">
+                <input type="submit" value="Yadda Saxla" class="btn" id="button">
+             </div>
+            </form>
+        </div>
+    </section>
+    <script src="lg.js"></script>
+    <script src="/components/login/storage.js"></script>
+    <script src="/components/login/login.js"></script>
+    <script src="/components/login/project.js"></script>
+</body>
+
+</html>

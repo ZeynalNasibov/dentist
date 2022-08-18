@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Open+Sans:wght@600&family=Roboto:wght@500&display=swap');
+html{
+   font-family: "Open Sans"sans-serif;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+.container{
+    max-width: 1500px;
+    margin: 0 auto;
+}
+#navhome,a{
+    text-decoration: none;
+    color: #fff;
+}
+body{
+    background:#F0F3F4;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.home{
+    background: blue;
+}
+#navhome{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 0.75rem;
+  height: 70px;
+}
+#navhome,ul,li{
+    list-style-type: none;
+    display: flex;
+    color: #fff;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    padding: 0.75rem;
+    padding-top: 18px;
+    font-weight: 700;
+    font-size: 25px;
+    
+}
+a{
+    transition-property:transform;
+    transition-duration: 350ms;
+    transition-timing-function: ease;
+    /* box-shadow: 0px 8px 10px 1px rgba(0, 0, 0, 0.2); */
+  }
+  a:is(:hover, :focus) {
+    /* box-shadow: 0px 8px 10px 1px rgba(0, 0, 0, 0.2); */
+    transform: translateY(-8px);
+    color: red;
+    text-decoration: none;
+}
+.form-row{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(11rem,1fr))
+}
+.btn{
+    margin-top: 5px;
+}
